@@ -9,9 +9,12 @@ namespace FinderProject.Data
         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
 
+
+        [Required]
         [StringLength(50)]
         public string Title { get; set; }
 
+        [Required]
         [StringLength(50)]
         public string VideoUrl { get; set; }
     }

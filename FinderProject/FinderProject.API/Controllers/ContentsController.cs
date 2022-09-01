@@ -20,11 +20,13 @@ namespace FinderProject.API.Controllers
         /// <summary>
         /// Tüm datalar listelenir.
         /// </summary>
+        /// 
         /// <returns></returns>
         [HttpGet]
-        public List<Contents> Get()
+        public IActionResult Get()
         {
-            return _contentService.GetAll();
+            var contents = _contentService.GetAll();
+            return Ok(contents); //200 + data
         }
 
 
@@ -46,7 +48,7 @@ namespace FinderProject.API.Controllers
         [HttpPost]
         public Contents Post([FromBody] Contents content)
         {
-           return _contentService.Create(content);
+            return _contentService.Create(content);
         }
 
         /// <summary>
@@ -66,7 +68,7 @@ namespace FinderProject.API.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-           _contentService.Delete(id);
+            _contentService.Delete(id);
         }
     }
 }

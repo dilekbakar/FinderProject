@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FinderProject.Data
 {
-    public class Content
+    public class Contents
     {
         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }

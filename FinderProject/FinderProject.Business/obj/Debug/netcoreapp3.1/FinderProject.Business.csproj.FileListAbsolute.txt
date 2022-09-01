@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\bin\Debug\netcoreapp3.1\FinderProject.Business.deps.json
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\bin\Debug\netcoreapp3.1\FinderProject.Business.dll
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\bin\Debug\netcoreapp3.1\FinderProject.Business.pdb
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\bin\Debug\netcoreapp3.1\FinderProject.Data.dll
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\bin\Debug\netcoreapp3.1\FinderProject.DataAcces.dll
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\bin\Debug\netcoreapp3.1\FinderProject.DataAcces.pdb
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\bin\Debug\netcoreapp3.1\FinderProject.Data.pdb
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\obj\Debug\netcoreapp3.1\FinderProject.Business.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\obj\Debug\netcoreapp3.1\FinderProject.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\obj\Debug\netcoreapp3.1\FinderProject.Business.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\obj\Debug\netcoreapp3.1\FinderProject.Business.AssemblyInfo.cs
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\obj\Debug\netcoreapp3.1\FinderProject.Business.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\obj\Debug\netcoreapp3.1\FinderProject.Business.csproj.CopyComplete
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\obj\Debug\netcoreapp3.1\FinderProject.Business.dll
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Business\obj\Debug\netcoreapp3.1\FinderProject.Business.pdb

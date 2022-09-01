@@ -8,3 +8,13 @@ C:\Users\user\Desktop\ASPNETCORECRUD\FinderProject\FinderProject.Data\obj\Debug\
 C:\Users\user\Desktop\ASPNETCORECRUD\FinderProject\FinderProject.Data\obj\Debug\netcoreapp3.1\FinderProject.Data.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\ASPNETCORECRUD\FinderProject\FinderProject.Data\obj\Debug\netcoreapp3.1\FinderProject.Data.dll
 C:\Users\user\Desktop\ASPNETCORECRUD\FinderProject\FinderProject.Data\obj\Debug\netcoreapp3.1\FinderProject.Data.pdb
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Data\bin\Debug\netcoreapp3.1\FinderProject.Data.deps.json
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Data\bin\Debug\netcoreapp3.1\FinderProject.Data.dll
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Data\bin\Debug\netcoreapp3.1\FinderProject.Data.pdb
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Data\obj\Debug\netcoreapp3.1\FinderProject.Data.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Data\obj\Debug\netcoreapp3.1\FinderProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Data\obj\Debug\netcoreapp3.1\FinderProject.Data.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Data\obj\Debug\netcoreapp3.1\FinderProject.Data.AssemblyInfo.cs
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Data\obj\Debug\netcoreapp3.1\FinderProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Data\obj\Debug\netcoreapp3.1\FinderProject.Data.dll
+C:\Users\user\Desktop\GITHUB\FinderProject\FinderProject\FinderProject.Data\obj\Debug\netcoreapp3.1\FinderProject.Data.pdb

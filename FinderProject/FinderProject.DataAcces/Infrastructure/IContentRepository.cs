@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FinderProject.DataAcces.Infrastructure
 {
-    public interface IContentRepository : IRepository<Content>
+    public interface IContentRepository : IRepository<Contents>
     {
     }
 }

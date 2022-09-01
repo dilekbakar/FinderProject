@@ -12,7 +12,7 @@ namespace FinderProject.DataAcces.Infrastructure
         List<T> GetAll();
 
         //tek bir nesne döndürür.
-        T GetById(int d);
+        T GetById(int id);
 
         T Create(T obj);
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zj6d8zufsh/hwgfHxk3k+MEaxUACLqWYmUardfVkigDyaZnm4wufOW24MP+Q40pM3l3Vnwpo2ytMNEq4aMOWlA==",
+  "dgSpecHash": "x1mJSBdl6CQtrI7HRPaMuSd5cck9ngy46xgh1V8D3zN/c4cLMsLezbYr4fPEZy3XkgqoC7Ze51eMvqYMvvkwLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\ASPNETCORECRUD\\FinderProject\\FinderProject.Data\\FinderProject.Data.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\GITHUB\\FinderProject\\FinderProject\\FinderProject.Data\\FinderProject.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

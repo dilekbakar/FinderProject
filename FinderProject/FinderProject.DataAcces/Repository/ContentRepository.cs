@@ -10,7 +10,7 @@ namespace FinderProject.DataAcces.Repository
 {
     public class ContentRepository : IContentRepository
     {
-       public Content Create(Content content)
+       public Contents Create(Contents content)
         {
             using (var finderDbContext = new FinderDbContext())
             {
@@ -30,7 +30,7 @@ namespace FinderProject.DataAcces.Repository
             }
         }
 
-        public List<Content> GetAll()
+        public List<Contents> GetAll()
         {
            using (var finderDbContext = new FinderDbContext())
             {
@@ -38,7 +38,7 @@ namespace FinderProject.DataAcces.Repository
             }
         }
 
-        public Content GetById(int id)
+        public Contents GetById(int id)
         {
             using (var finderDbContext = new FinderDbContext())
             {
@@ -46,11 +46,12 @@ namespace FinderProject.DataAcces.Repository
             }
         }
 
-        public Content Update(Content content)
+        public Contents Update(Contents content)
         {
             using (var finderDbContext = new FinderDbContext())
             {
                 finderDbContext.Contents.Update(content);
+                finderDbContext.SaveChanges();
                 return content;
             }
         }

@@ -14,6 +14,6 @@ namespace FinderProject.DataAcces.DataContext
             optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS; Database=FinderDB; Integrated Security=True");
         }
 
-        public DbSet<Content> Contents { get; set; }
+        public DbSet<Contents> Contents { get; set; }
     }
 }

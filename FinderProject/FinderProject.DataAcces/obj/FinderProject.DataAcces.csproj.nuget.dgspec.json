@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\ASPNETCORECRUD\\FinderProject\\FinderProject.DataAcces\\FinderProject.DataAcces.csproj": {}
+    "C:\\Users\\user\\Desktop\\GITHUB\\FinderProject\\FinderProject\\FinderProject.DataAcces\\FinderProject.DataAcces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\ASPNETCORECRUD\\FinderProject\\FinderProject.DataAcces\\FinderProject.DataAcces.csproj": {
+    "C:\\Users\\user\\Desktop\\GITHUB\\FinderProject\\FinderProject\\FinderProject.DataAcces\\FinderProject.DataAcces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ASPNETCORECRUD\\FinderProject\\FinderProject.DataAcces\\FinderProject.DataAcces.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\GITHUB\\FinderProject\\FinderProject\\FinderProject.DataAcces\\FinderProject.DataAcces.csproj",
         "projectName": "FinderProject.DataAcces",
-        "projectPath": "C:\\Users\\user\\Desktop\\ASPNETCORECRUD\\FinderProject\\FinderProject.DataAcces\\FinderProject.DataAcces.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\GITHUB\\FinderProject\\FinderProject\\FinderProject.DataAcces\\FinderProject.DataAcces.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ASPNETCORECRUD\\FinderProject\\FinderProject.DataAcces\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\GITHUB\\FinderProject\\FinderProject\\FinderProject.DataAcces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\ASPNETCORECRUD\\FinderProject\\FinderProject.Data\\FinderProject.Data.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\ASPNETCORECRUD\\FinderProject\\FinderProject.Data\\FinderProject.Data.csproj"
+              "C:\\Users\\user\\Desktop\\GITHUB\\FinderProject\\FinderProject\\FinderProject.Data\\FinderProject.Data.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\GITHUB\\FinderProject\\FinderProject\\FinderProject.Data\\FinderProject.Data.csproj"
               }
             }
           }
@@ -51,13 +51,13 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.13, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.22, )"
+              "version": "[5.0.8, )"
             }
           },
           "imports": [
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\ASPNETCORECRUD\\FinderProject\\FinderProject.Data\\FinderProject.Data.csproj": {
+    "C:\\Users\\user\\Desktop\\GITHUB\\FinderProject\\FinderProject\\FinderProject.Data\\FinderProject.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ASPNETCORECRUD\\FinderProject\\FinderProject.Data\\FinderProject.Data.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\GITHUB\\FinderProject\\FinderProject\\FinderProject.Data\\FinderProject.Data.csproj",
         "projectName": "FinderProject.Data",
-        "projectPath": "C:\\Users\\user\\Desktop\\ASPNETCORECRUD\\FinderProject\\FinderProject.Data\\FinderProject.Data.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\GITHUB\\FinderProject\\FinderProject\\FinderProject.Data\\FinderProject.Data.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ASPNETCORECRUD\\FinderProject\\FinderProject.Data\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\GITHUB\\FinderProject\\FinderProject\\FinderProject.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

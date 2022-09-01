@@ -6,7 +6,7 @@ using System.Text;
 
 namespace FinderProject.Business.Infrastructure
 {
-    public interface IContentService : IRepository<Content>
+    public interface IContentService : IRepository<Contents>
     {
     }
 }

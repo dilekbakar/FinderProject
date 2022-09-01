@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FinderProject.API</name>
+    </assembly>
+    <members>
+        <member name="M:FinderProject.API.Controllers.ContentsController.Get">
+            <summary>
+            Tüm datalar listelenir.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinderProject.API.Controllers.ContentsController.Get(System.Int32)">
+            <summary>
+            Id'si girilen data listelenir.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinderProject.API.Controllers.ContentsController.Post(FinderProject.Data.Contents)">
+            <summary>
+            Yeni data kaydedilir. Id hariç tüm parametreler girilmelidir.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinderProject.API.Controllers.ContentsController.Put(FinderProject.Data.Contents)">
+            <summary>
+            Id'si verilen data güncellenir.  
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinderProject.API.Controllers.ContentsController.Delete(System.Int32)">
+            <summary>
+            Id'si verilen data silinir.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

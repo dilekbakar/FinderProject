@@ -24,6 +24,20 @@ namespace FinderProject.API
             //constructur'da IContentService'e ihtiyaç duyuluyorsa, ContentManager üret.
             services.AddSingleton<IContentService, ContentManager>();
             services.AddSingleton<IContentRepository, ContentRepository>();
+            services.AddSwaggerDocument(config =>
+            {
+                config.PostProcess = (doc =>
+                {
+                    doc.Info.Title = "Korteks";
+                    doc.Info.Version = "1.0.0";
+                    doc.Info.Contact = new NSwag.OpenApiContact()
+                    {
+                        Name = "Dilek Bakar",
+                        Url= "https://github.com/dilekbakar",
+                      
+                    };
+                });
+            });
 
         }
 
@@ -36,7 +50,8 @@ namespace FinderProject.API
             }
 
             app.UseRouting();
-
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers(); 

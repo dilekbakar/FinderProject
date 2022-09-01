@@ -14,12 +14,14 @@
             <summary>
             Id'si girilen data listelenir.
             </summary>
+            <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:FinderProject.API.Controllers.ContentsController.Post(FinderProject.Data.Contents)">
             <summary>
             Yeni data kaydedilir. Id hariç tüm parametreler girilmelidir.
             </summary>
+            <param name="content"></param>
             <returns></returns>
         </member>
         <member name="M:FinderProject.API.Controllers.ContentsController.Put(FinderProject.Data.Contents)">
@@ -32,6 +34,7 @@
             <summary>
             Id'si verilen data silinir.
             </summary>
+            <param name="id"></param>
             <returns></returns>
         </member>
     </members>

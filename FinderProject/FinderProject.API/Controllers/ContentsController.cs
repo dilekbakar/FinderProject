@@ -20,7 +20,7 @@ namespace FinderProject.API.Controllers
         /// <summary>
         /// Tüm datalar listelenir.
         /// </summary>
-        /// 
+
         /// <returns></returns>
         [HttpGet]
         public IActionResult Get()
@@ -33,22 +33,32 @@ namespace FinderProject.API.Controllers
         /// <summary>
         /// Id'si girilen data listelenir.
         /// </summary>
+        /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet("{id}")]
-        public Contents Get(int id)
+        public IActionResult Get(int id)
         {
-            return _contentService.GetById(id);
+            var content = _contentService.GetById(id);
+            if (content != null)
+            {
+                return Ok(content);// 200 + data
+            }
+            return NotFound(); //404
         }
+
 
 
         /// <summary>
         /// Yeni data kaydedilir. Id hariç tüm parametreler girilmelidir.
         /// </summary>
+        /// <param name="content"></param>
         /// <returns></returns>
         [HttpPost]
-        public Contents Post([FromBody] Contents content)
+        public IActionResult Post([FromBody] Contents content)
         {
-            return _contentService.Create(content);
+            //valid değilse hiç girmez ve 400 gönderir.
+            var createdContent = _contentService.Create(content);
+            return CreatedAtAction("Get", new { id = createdContent.ID }, createdContent); //201 + data
         }
 
         /// <summary>
@@ -56,19 +66,29 @@ namespace FinderProject.API.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpPut]
-        public Contents Put([FromBody] Contents content)
+        public IActionResult Put([FromBody] Contents content)
         {
-            return _contentService.Update(content);
+            if (_contentService.GetById(content.ID)!= null)
+            {
+                return Ok(_contentService.Update(content));
+            }
+            return NotFound();
         }
 
         /// <summary>
         /// Id'si verilen data silinir.
         /// </summary>
+        /// <param name="id"></param>
         /// <returns></returns>
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
-            _contentService.Delete(id);
+            if (_contentService.GetById(id)!=null)
+            {
+                _contentService.Delete(id);
+                return Ok(); //200
+            }
+            return NotFound();
         }
     }
 }

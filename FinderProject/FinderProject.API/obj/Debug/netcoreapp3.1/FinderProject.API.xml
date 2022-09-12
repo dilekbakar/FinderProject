@@ -10,7 +10,7 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:FinderProject.API.Controllers.ContentsController.Get(System.Int32)">
+        <member name="M:FinderProject.API.Controllers.ContentsController.GetById(System.Int32)">
             <summary>
             Id'si girilen data listelenir.
             </summary>

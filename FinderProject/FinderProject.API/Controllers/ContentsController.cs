@@ -35,8 +35,9 @@ namespace FinderProject.API.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        [HttpGet]
+        [Route("[action]/{id}")] //api/contents/getbyid/id
+        public IActionResult GetById(int id)
         {
             var content = _contentService.GetById(id);
             if (content != null)
@@ -46,8 +47,17 @@ namespace FinderProject.API.Controllers
             return NotFound(); //404
         }
 
+        [HttpGet]
+        [Route("[action]/{name}")]
+        public IActionResult GetByName(string name)
+        {
+           
+            return Ok();
+           
+        }
 
 
+        
         /// <summary>
         /// Yeni data kaydedilir. Id hariç tüm parametreler girilmelidir.
         /// </summary>
